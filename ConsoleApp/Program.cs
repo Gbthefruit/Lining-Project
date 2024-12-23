@@ -20,11 +20,11 @@ internal class Program
     Console.WriteLine();
     if (sentido == "MAIOR")
     {
-      Console.WriteLine($"{quarto.Maior(0.20, 7.00)} forros serão necessários para preencher o quarto.\nE serão necessários {quarto.QuantidadeParafuso:f1} parafusos");
+      Console.WriteLine($"{quarto.Maior(0.20, 7.00)} forros serão necessários para preencher o quarto.\nE serão necessários {quarto.QuantidadeMetalon:f0} metalons e entre {quarto.QuantidadeParafuso} a {quarto.QuantidadeParafuso + 2} para prender o forro no metalon.");
     }
     else if (sentido == "MENOR")
     {
-      Console.WriteLine($"{quarto.Menor(0.20, 7.00)} forros serão necessários para preencher o quarto.\nE serão necessários {quarto.QuantidadeParafuso:f1} parafusos");
+      Console.WriteLine($"{quarto.Menor(0.20, 7.00)} forros serão necessários para preencher o quarto.\nE serão necessários {quarto.QuantidadeMetalon:f0} metalons e entre {quarto.QuantidadeParafuso} a {quarto.QuantidadeParafuso + 2} para prender o forro no metalon.");
     }
   }
 }
